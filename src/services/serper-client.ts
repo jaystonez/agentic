@@ -205,9 +205,7 @@ export namespace serper {
 }
 
 /**
- * Lightweight wrapper around Serper for Google search.
- *
- * @see https://serper.dev
+ * Lightweight wrapper around [Serper](https://serper.dev) for Google search.
  */
 export class SerperClient extends AIFunctionsProvider {
   protected readonly ky: KyInstance

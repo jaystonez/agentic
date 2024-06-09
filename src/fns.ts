@@ -5,7 +5,7 @@ import { AIFunctionSet } from './ai-function-set.js'
 import { createAIFunction } from './create-ai-function.js'
 import { assert } from './utils.js'
 
-export interface PrivateAIFunctionMetadata {
+interface PrivateAIFunctionMetadata {
   name: string
   description: string
   inputSchema: z.AnyZodObject

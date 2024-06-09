@@ -1,0 +1,75 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Agentic",
+  "logo": {
+    "dark": "/media/agentic-header.jpg",
+    "light": "/media/agentic-header.jpg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D969D",
+    "light": "#13D3DC",
+    "dark": "#0D969D",
+    "anchors": {
+      "from": "#0D969D",
+      "to": "#13D3DC"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Twitter",
+      "url": "https://x.com/transitive_bs"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "GitHub",
+    "url": "https://github.com/transitive-bullshit/agentic"
+  },
+  "anchors": [
+    {
+      "name": "Docs",
+      "icon": "book-open-cover",
+      "url": "/"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/transitive-bullshit/agentic"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "intro",
+        "quickstart",
+        "usage",
+        {
+          "group": "AI SDKs",
+          "pages": [
+            "sdks/langchain",
+            "sdks/llamaindex",
+            "sdks/vercel-ai",
+            "sdks/firebase-genkit",
+            "sdks/dexa-dexter"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Services",
+      "pages": ["services/weather"]
+    },
+    {
+      "group": "TS Reference",
+      "pages": ["ts/todo"]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/transitive_bs",
+    "github": "https://github.com/transitive-bullshit/agentic"
+  },
+  "seo": {
+    "indexHiddenPages": true
+  }
+}

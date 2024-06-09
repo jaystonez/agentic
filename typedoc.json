@@ -1,0 +1,31 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": [
+    "src/index.ts",
+    "src/sdks/ai-sdk.ts",
+    "src/sdks/dexter.ts",
+    "src/sdks/genkit.ts",
+    "src/sdks/langchain.ts",
+    "src/sdks/llamaindex.ts",
+    "src/services/twitter/index.ts",
+    "src/tools/calculator.ts",
+    "src/tools/e2b.ts"
+  ],
+  "exclude": ["**/*.test.ts", "examples"],
+  "plugin": ["typedoc-plugin-markdown"],
+  "out": "./docs/ts",
+  "outputFileStrategy": "members",
+  "entryFileName": "index",
+  "fileExtension": ".mdx",
+  "hidePageHeader": true,
+  "hideBreadcrumbs": true,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "excludeInternal": true,
+  "excludeGroups": false,
+  "preserveAnchorCasing": false,
+  "parametersFormat": "table",
+  "propertiesFormat": "table",
+  "typeDeclarationFormat": "table"
+}
