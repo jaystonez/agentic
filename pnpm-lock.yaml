@@ -315,6 +315,9 @@ importers:
 
   packages/core:
     dependencies:
+      '@opentelemetry/api':
+        specifier: ^1.9.0
+        version: 1.9.0
       '@sindresorhus/is':
         specifier: ^7.0.0
         version: 7.0.0
@@ -433,6 +436,22 @@ importers:
       '@e2b/code-interpreter':
         specifier: ^0.0.8
         version: 0.0.8(bufferutil@4.0.8)(utf-8-validate@6.0.4)
+
+  packages/evals:
+    dependencies:
+      type-fest:
+        specifier: ^4.21.0
+        version: 4.25.0
+      zod:
+        specifier: ^3.23.8
+        version: 3.23.8
+    devDependencies:
+      '@agentic/core':
+        specifier: workspace:*
+        version: link:../core
+      '@agentic/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
 
   packages/exa:
     dependencies:
